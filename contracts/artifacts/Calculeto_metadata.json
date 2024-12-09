@@ -6,8 +6,60 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
 				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "multiply",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "subtract",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -41,11 +93,11 @@
 	},
 	"sources": {
 		"contracts/Calculetor.sol": {
-			"keccak256": "0x60795f67ea953633c293f6b3279632fe8f4db4957b6323bafb34ae411deb4fbc",
+			"keccak256": "0xdda8cf8476e25700e487a06b1f886a522d3e5412558f78fa4dffaa92a89556f8",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://ba610d3a683e0980528e06c0ea0cd223106586c063895adc4e6e5903c4a70367",
-				"dweb:/ipfs/QmURPBqqQsTRjDxZfnZUSym7BcV6KePFpqb8KUQn2d4Kih"
+				"bzz-raw://6b3c0ba540ed18db382606c72e659019e8720279a1d11151cb0a0c3f265d5a2f",
+				"dweb:/ipfs/QmR5QiHz3pHjuyoUbfWFGhSnQ1h3QQbYujKp5BoEZYsg1u"
 			]
 		}
 	},
