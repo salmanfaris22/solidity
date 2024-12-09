@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Calculetor.sol": "Calculeto"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Calculetor.sol": {
+			"keccak256": "0x60795f67ea953633c293f6b3279632fe8f4db4957b6323bafb34ae411deb4fbc",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ba610d3a683e0980528e06c0ea0cd223106586c063895adc4e6e5903c4a70367",
+				"dweb:/ipfs/QmURPBqqQsTRjDxZfnZUSym7BcV6KePFpqb8KUQn2d4Kih"
+			]
+		}
+	},
+	"version": 1
+}

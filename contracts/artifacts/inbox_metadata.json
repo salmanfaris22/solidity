@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "messages",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3_Ballot.sol": "inbox"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_Ballot.sol": {
+			"keccak256": "0x32bc3feb9ed30921f8d1bc9f31f20ee2edb2616dee4376a115004c9d0ce626d4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9cfbba49092db1d251a6f1bf125e28c969943ee9ec7cbba7e4b2b003f2ee50d1",
+				"dweb:/ipfs/QmaXA84ySeZMbagotWwmum7BJXMq6UkuE151Q3eKDTqJje"
+			]
+		}
+	},
+	"version": 1
+}

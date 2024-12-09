@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "welcom",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Calculetor.sol": "Calclu"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Calculetor.sol": {
+			"keccak256": "0xd6f447146c2d426db89fcbbc3ec8012eeb3795be74793113fa6830f402d54218",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://0dfeed4c76570747c2475087d1072dae4f4f6598af0b9974191f42b2bb59f253",
+				"dweb:/ipfs/QmbBYf4VmMMuAyPxKqEq7oe9gR6QKsvTA3h8V5qzSoEFyD"
+			]
+		}
+	},
+	"version": 1
+}
