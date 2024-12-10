@@ -6,7 +6,7 @@ contract Calculeto {
     uint256  result =0;
 
  
-    function add(uint256 num) public {
+    function add(uint256 num) external   {
         result += num;
     }
 

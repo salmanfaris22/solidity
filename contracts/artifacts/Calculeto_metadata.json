@@ -93,11 +93,11 @@
 	},
 	"sources": {
 		"contracts/Calculetor.sol": {
-			"keccak256": "0xdda8cf8476e25700e487a06b1f886a522d3e5412558f78fa4dffaa92a89556f8",
+			"keccak256": "0xc26d555b2fb57bbea43ec3166b25dce809cbdbaf6d6c7ff4c62ff81fdd7b7c14",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://6b3c0ba540ed18db382606c72e659019e8720279a1d11151cb0a0c3f265d5a2f",
-				"dweb:/ipfs/QmR5QiHz3pHjuyoUbfWFGhSnQ1h3QQbYujKp5BoEZYsg1u"
+				"bzz-raw://c94839c5567c9c58252bee5975162d6650d08106e67b9be0ee9b0e0684e0412e",
+				"dweb:/ipfs/Qma4xzCKmeuWVwT42BfhfMBFXWzGHp2U7DjfzwyvFogum3"
 			]
 		}
 	},
