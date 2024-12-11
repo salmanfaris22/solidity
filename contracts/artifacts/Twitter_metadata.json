@@ -6,6 +6,37 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "MAX_TWEEN_LENGTH",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "newLength",
+						"type": "uint16"
+					}
+				],
+				"name": "changeTweenLength",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -30,6 +61,11 @@
 				"outputs": [
 					{
 						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
 							{
 								"internalType": "address",
 								"name": "aithor",
@@ -77,6 +113,11 @@
 					{
 						"components": [
 							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
 								"internalType": "address",
 								"name": "aithor",
 								"type": "address"
@@ -109,6 +150,37 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "aithor",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "likeTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "",
 						"type": "address"
 					},
@@ -120,6 +192,11 @@
 				],
 				"name": "tweets",
 				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
 					{
 						"internalType": "address",
 						"name": "aithor",
@@ -142,6 +219,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "aithor",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "unlikeTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -173,11 +268,11 @@
 	},
 	"sources": {
 		"contracts/twittwr.sol": {
-			"keccak256": "0x20890fe89b7eb75a2082f783c61477d2036cfffab4e1337a1f33d95ca197c63e",
+			"keccak256": "0xa7bd30655cc47ecef85650cf6f04098f822d2015b74aa4c5342e59f6038fa91c",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://d74828feaf11c06d89d68018857bac811370462694e198d890fe076d2f9d5511",
-				"dweb:/ipfs/QmQvypfqj91opSe4sFraJtsWgx9TUE4viLrvW1ig9UjXBj"
+				"bzz-raw://2fabcaf77ec0d6f33f93eb3f9b0081012a11aad272e016ee0c86098249b45ec5",
+				"dweb:/ipfs/QmS9sLvpQSYcadXT5Hq8uWrozmE3bzeGxnEWFfzVwHhp9b"
 			]
 		}
 	},
