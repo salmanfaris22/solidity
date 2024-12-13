@@ -1,6 +1,7 @@
-// SPDX-License-Identifier: GPL-3.0
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.26;
 
-pragma solidity >=0.7.0 <0.9.0;
+import "hardhat/console.sol";
 
 contract Todo {
     struct Task {
@@ -75,3 +76,6 @@ contract Todo {
         tasks[_id].exists = false;
     }
 }
+
+
+//0xD68Eae00ABf26851e1ef852aC9A35BF3E2D11586 to
