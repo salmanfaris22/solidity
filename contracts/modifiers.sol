@@ -13,11 +13,11 @@ contract PusableToken{
     }
 
     modifier onlyOwner(){
-        require(msg.sender == owner, "YOUR NOT THE OWNER");
+        require(msg.sender == owner, "YOUR NOT THE OWNER.....");
         _;
     }
       modifier notPaused(){
-        require(paused == false, "THIS OWNER TRASACTIONS IS PUASED");
+        require(paused == false, "THIS OWNER TRASACTIONS IS PUASED.....");
         _;
     }
 
