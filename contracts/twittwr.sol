@@ -21,7 +21,7 @@ contract Twitter {
     }
 
     modifier onliyOwner(){
-        require(msg.sender== owner,"YOUR NOT THE OWNER");
+        require(msg.sender== owner,"YOUR NOT THE OWNER....!");
         _;
     }
     function changeTweenLength(uint16 newLength)public onliyOwner{

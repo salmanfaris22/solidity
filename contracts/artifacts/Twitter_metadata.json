@@ -268,11 +268,11 @@
 	},
 	"sources": {
 		"contracts/twittwr.sol": {
-			"keccak256": "0xa7bd30655cc47ecef85650cf6f04098f822d2015b74aa4c5342e59f6038fa91c",
+			"keccak256": "0xb777ac0b0b212f0b247f174c57399aadeb12f6fb6af66dd89fd44c428ee68d83",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://2fabcaf77ec0d6f33f93eb3f9b0081012a11aad272e016ee0c86098249b45ec5",
-				"dweb:/ipfs/QmS9sLvpQSYcadXT5Hq8uWrozmE3bzeGxnEWFfzVwHhp9b"
+				"bzz-raw://2754055010af01e4ec3217572aab69f7219bce3d285ab2270d07d3cd8f1e6724",
+				"dweb:/ipfs/QmZ7nmj53HS4KseBm6BNiEC9aq9QR5rC5ADCBMBzEqMMJT"
 			]
 		}
 	},
